@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:andriod="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    andriod:layout_width="match_parent"
+    andriod:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        andriod:id="@+id/rvMovies"
+        andriod:layout_width="match_parent"
+        andriod:layout_height="match_parent"
+        andriod:layout_alignParentStart="true"
+        andriod:layout_alignParentTop="true"
+        andriod:layout_marginStart="0dp"
+        andriod:layout_marginTop="0dp" />
+</RelativeLayout>
